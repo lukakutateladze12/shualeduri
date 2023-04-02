@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    width: 100%;
+}
+
+.div-header {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 24px;
+}
+
+.search{
+    position: relative;
+}
+.search :nth-child(1){
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+}
+
+.search :nth-child(2){
+    position: absolute;
+    top: 13px;
+    left:13px;
+}
+.search :nth-child(3){
+    position: absolute;
+    top: 28px;
+    left:28px;
+}
